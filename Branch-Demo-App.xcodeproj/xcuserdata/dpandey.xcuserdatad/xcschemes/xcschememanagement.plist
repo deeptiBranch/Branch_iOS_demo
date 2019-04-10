@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Branch-Demo-App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Branch-app-2-testing-dual.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5A36E114211E30EB002B8ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A36E128211E30ED002B8ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A36E133211E30ED002B8ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

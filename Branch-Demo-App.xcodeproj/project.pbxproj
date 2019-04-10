@@ -14,6 +14,13 @@
 		5A36E123211E30ED002B8ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A36E121211E30ED002B8ED7 /* LaunchScreen.storyboard */; };
 		5A36E12E211E30ED002B8ED7 /* Branch_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36E12D211E30ED002B8ED7 /* Branch_Demo_AppTests.swift */; };
 		5A36E139211E30ED002B8ED7 /* Branch_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36E138211E30ED002B8ED7 /* Branch_Demo_AppUITests.swift */; };
+		5A36E14B211E4591002B8ED7 /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E146211E3ABE002B8ED7 /* Branch.framework */; };
+		5A36E14C211E4591002B8ED7 /* Branch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E146211E3ABE002B8ED7 /* Branch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A36E150211E45B0002B8ED7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E14F211E45B0002B8ED7 /* AdSupport.framework */; };
+		5A36E152211E45BF002B8ED7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E151211E45BF002B8ED7 /* SafariServices.framework */; };
+		5A36E154211E45C7002B8ED7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E153211E45C7002B8ED7 /* MobileCoreServices.framework */; };
+		5A36E156211E45D5002B8ED7 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E155211E45D5002B8ED7 /* CoreSpotlight.framework */; };
+		5A36E158211E45DB002B8ED7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A36E157211E45DB002B8ED7 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +40,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5A36E14D211E4591002B8ED7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5A36E14C211E4591002B8ED7 /* Branch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A0BDC3321A81F7D00FFA2E6 /* Branch-Demo-App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Branch-Demo-App.entitlements"; sourceTree = "<group>"; };
 		5A36E115211E30EB002B8ED7 /* Branch-Demo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Branch-Demo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A36E118211E30EB002B8ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A36E11A211E30EB002B8ED7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,12 @@
 		5A36E134211E30ED002B8ED7 /* Branch-Demo-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Branch-Demo-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A36E138211E30ED002B8ED7 /* Branch_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch_Demo_AppUITests.swift; sourceTree = "<group>"; };
 		5A36E13A211E30ED002B8ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A36E146211E3ABE002B8ED7 /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
+		5A36E14F211E45B0002B8ED7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5A36E151211E45BF002B8ED7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		5A36E153211E45C7002B8ED7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5A36E155211E45D5002B8ED7 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		5A36E157211E45DB002B8ED7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A36E158211E45DB002B8ED7 /* iAd.framework in Frameworks */,
+				5A36E156211E45D5002B8ED7 /* CoreSpotlight.framework in Frameworks */,
+				5A36E154211E45C7002B8ED7 /* MobileCoreServices.framework in Frameworks */,
+				5A36E152211E45BF002B8ED7 /* SafariServices.framework in Frameworks */,
+				5A36E150211E45B0002B8ED7 /* AdSupport.framework in Frameworks */,
+				5A36E14B211E4591002B8ED7 /* Branch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +111,12 @@
 		5A36E10C211E30EA002B8ED7 = {
 			isa = PBXGroup;
 			children = (
+				5A36E146211E3ABE002B8ED7 /* Branch.framework */,
 				5A36E117211E30EB002B8ED7 /* Branch-Demo-App */,
 				5A36E12C211E30ED002B8ED7 /* Branch-Demo-AppTests */,
 				5A36E137211E30ED002B8ED7 /* Branch-Demo-AppUITests */,
 				5A36E116211E30EB002B8ED7 /* Products */,
+				5A36E14E211E45B0002B8ED7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +133,7 @@
 		5A36E117211E30EB002B8ED7 /* Branch-Demo-App */ = {
 			isa = PBXGroup;
 			children = (
+				5A0BDC3321A81F7D00FFA2E6 /* Branch-Demo-App.entitlements */,
 				5A36E118211E30EB002B8ED7 /* AppDelegate.swift */,
 				5A36E11A211E30EB002B8ED7 /* ViewController.swift */,
 				5A36E11C211E30EB002B8ED7 /* Main.storyboard */,
@@ -125,6 +162,18 @@
 			path = "Branch-Demo-AppUITests";
 			sourceTree = "<group>";
 		};
+		5A36E14E211E45B0002B8ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A36E157211E45DB002B8ED7 /* iAd.framework */,
+				5A36E155211E45D5002B8ED7 /* CoreSpotlight.framework */,
+				5A36E153211E45C7002B8ED7 /* MobileCoreServices.framework */,
+				5A36E151211E45BF002B8ED7 /* SafariServices.framework */,
+				5A36E14F211E45B0002B8ED7 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +184,7 @@
 				5A36E111211E30EB002B8ED7 /* Sources */,
 				5A36E112211E30EB002B8ED7 /* Frameworks */,
 				5A36E113211E30EB002B8ED7 /* Resources */,
+				5A36E14D211E4591002B8ED7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +243,23 @@
 				TargetAttributes = {
 					5A36E114211E30EB002B8ED7 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					5A36E128211E30ED002B8ED7 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -431,6 +498,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H82F6T3LY5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Branch-Demo-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +520,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H82F6T3LY5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Branch-Demo-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
